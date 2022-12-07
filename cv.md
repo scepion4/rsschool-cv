@@ -1,29 +1,29 @@
-#Andriy Safonov
+# Andriy Safonov
 
 
-##Contacts
-*Address:Ukraine 14000 Chernihiv
-*Discord: Scepion4
-*E-mail: safonov04@ukr.net
-*Number:+380500618488
+## Contacts
+* Address:Ukraine 14000 Chernihiv
+* Discord: Scepion4
+* E-mail: safonov04@ukr.net
+* Number:+380500618488
 
 
-##About me 
+## About me 
 
 I have a dreame. I want to work in EPAM. I believe I can do this by work hard and I am ready to give for it all my time.
 
 
-##Skills
+## Skills
 
 
-*HTML
-*CSS, SCSS
-*React, Redux
-*Next.js
-*git
+* HTML
+* CSS, SCSS
+* React, Redux
+* Next.js
+* git
 
 
-##Code example
+## ode example
 
 
 ```
@@ -46,16 +46,16 @@ download.addEventListener('click',function(){
 })
 ```
 
-##Experience
+## Experience
 I have not got experience yet
 
 
-##Education
-*Sumy State University «Finance and Audit of Business»
-*Courses 
-    +baisics of the UI development in 2022 (Prometeus) 
+## Education
+* Sumy State University «Finance and Audit of Business»
+* Courses 
+    + baisics of the UI development in 2022 (Prometeus) 
 
 
-##English
+## English
 
  level A2
