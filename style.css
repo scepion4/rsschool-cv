@@ -50,18 +50,13 @@
    border: 0;
  }
  
- a, a:visited {
-   text-decoration: none;
+
+ ul li{
+   list-style: none;
  }
- 
  a:hover {
    text-decoration: none;
  }
- 
- ul li {
-   list-style: none;
- }
- 
  img {
    vertical-align: top;
  }
@@ -81,14 +76,15 @@
  }
 
  .wrraper{
-   background-color: aliceblue;
-   width: 60%;
-   height: 90%;
+   width: 65%;
+  height: 100%;
+ 
+
  }
 
  header{
    background-color: #0c525c;
-   height: 30%;
+   height: 200px;
    width: 100%;
    border-bottom: 3px solid black;
    display: flex;
@@ -101,20 +97,22 @@
    display: flex;
  }
  .left-column{
-   width: 50%;
+   width: 70%;
    margin-top: 2%;
  }
  .right-column{
-   width: 50%;
+   width: 30%;
    display: flex;
-   justify-content: end;
+   justify-content: start;
+  
  }
  .right-column img{
-   width: 150px;
-   height: 300px;
+   object-fit: cover;
+   max-width: 200px;
+   max-height: 350px;
    margin-top: 10%;
-   border: 3px solid black;
    border-radius: 0px 30px;
+   display: block;
  }
  h1{
    font-family: 'Lobster', cursive;
@@ -123,3 +121,182 @@
  .header-subtitle{
    font-family: 'Anton', sans-serif;
  }
+ main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: aliceblue;
+   padding-bottom:30px ;
+ }
+ .main-wrraper{
+   width: 80%;
+   display: flex;
+   
+ }
+ .left-column-main{
+   width: 70%;
+ }
+ .right-column-main{
+   width: 30%;
+ }
+
+ .main-conteiner{
+   width: 90%;
+   background-color: #448b94;
+   border-radius: 10px;
+   margin-top:4%;
+   padding-top: 10px;
+ }
+ .text-conteiner{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ .code{
+   overflow:hidden;
+ }
+
+ .title-box{
+   background-color:#0c525c;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 0px 10px 0px 0px;
+   margin-bottom: 10px;
+   max-width: 50%;
+ }
+ .title-main{
+   margin: 7px;
+   font-size: 20px;
+   font-weight: bold;
+ }
+.text-about-me{
+   font-size: 20px;
+   width: 90%;
+   padding: 20px;
+}
+.education-text{
+   font-size: 20px;
+   width: 90%;
+   padding: 20px;
+}
+li{
+   padding: 10px 0px 0px 0px;
+}
+
+.education{
+   margin-top: 80%;
+}
+.cards{
+   max-width: 90%;
+   margin-top: 30px;
+}
+.cards:last-child {
+ margin-bottom: 20px;
+}
+.img-cards{
+   width: 200px;
+   height: 150px;
+   margin-right: 10px;
+}
+.cards-wrraper{
+   display: flex;
+}
+.name-card{
+   font-size: 20px;
+}
+.link-code{
+   width: auto;
+   height: 40px;
+   background-color:#0c525c;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+.link-code a{
+   color: #000;
+   font-size: 20px;
+   margin: 5px;
+}
+footer{
+   min-width:20%;
+   background-color:#0c525c;
+}
+.footer-wrraper{
+   display: flex;
+   justify-content: space-around;
+   align-items:center ;
+}
+.github a{
+   color: black;
+   font-size: 18px;
+   text-decoration: none;
+}
+.logo-curse a img{
+   width: 60px;
+   height: 60px;
+}
+
+@media ( max-width:1450px ) {
+   .wrraper{
+      width: 90%;
+   }
+  }
+  @media ( max-width:1150px ) {
+   .wrraper{
+      width: 100%;
+   }
+  }
+  @media ( max-width:1027px ) {
+   .right-column img{
+      object-fit: cover;
+      max-width: 150px;
+      max-height: 150px;
+      margin-top: 10%;
+      border-radius:15px;
+      
+    }
+    .right-column{
+      width: 30%;
+      display: flex;
+      justify-content: end;
+     
+    }
+    .education{
+      margin-top:20px;
+   }
+   .main-wrraper{
+      flex-direction: column;
+      
+   }
+   .left-column-main{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .right-column-main{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media ( max-width:730px ) {
+   .main-conteiner{
+      width: 100%;
+      background-color: #448b94;
+      border-radius: 10px;
+      margin-top:4%;
+      padding-top: 10px;
+    }
+    .main-wrraper{
+      width: 100%;
+    }
+  }
